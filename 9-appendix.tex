@@ -1,0 +1,61 @@
+\section*{Score-P Screenshots}
+
+\begin{figure}[h!]
+\centering
+ \includegraphics[width=\textwidth]{images/scorep-overview.png}
+ \caption{Vampir analysis of Score-P trace}
+ \label{fig:fig_over}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+ \includegraphics[width=\textwidth]{images/scorep-sync.png}
+ \caption{Synchronization of Score-P traces via workHard function inVampir}
+ \label{fig:fig_sync}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+ \includegraphics[width=\textwidth]{images/scorep-wakeup.png}
+ \caption{Measuring Wake-up latencies in Vampir}
+ \label{fig:fig_wake}
+\end{figure}
+
+
+\newpage
+\section*{Code Listings}
+
+\subsection*{Linux Kernel Patch}
+
+%\lstinputlisting[language=C, firstnumber=456, firstline=456, lastline=523, label=lst:intel_idle_hsw, caption={Haswell C-state definitions - 4.8.4/drivers/idle/intel\_idle.c}]{listings/intel_idle.c}
+
+\lstinputlisting[language=C, firstnumber=875, firstline=875, lastline=919, label=lst:intel_idle, caption={Recording C-state transitions - 4.8.4/drivers/idle/intel\_idle.c}]{listings/intel_idle.c}
+
+\lstinputlisting[language=C, firstnumber=33, firstline=33, lastline=50, label=lst:include_cpuidle, caption={Data Structure Definition - 4.8.4/include/linux/cpuidle.h}]{listings/include-cpuidle.h}
+
+\lstinputlisting[language=C, firstnumber=446, firstline=446, lastline=696, label=lst:sysfs, caption={Sysfs - 4.8.4/drivers/cpuidle/sysfs.c}]{listings/sysfs.c}
+
+\subsection*{Score-P cpuidle Plugin}
+
+\lstinputlisting[language=C++, label=lst:scorep_cpuidle, caption={Score-P cpuidle Plugin - scorep\_plugin\_cpuidle/scorep\_cpuidle\_plugin.cpp}]{listings/scorep_cpuidle_plugin.cpp}
+
+\subsection*{C-state Trigger Program and Environment}
+
+
+
+\lstinputlisting[language=sh, label=lst:cpus_off, caption={Control Script to Disable other CPU cores - control/disable-cpus.sh}]{listings/disable-cpus.sh}
+\lstinputlisting[language=sh, label=lst:limit_cstate, caption={Control Script to Deactivate specific Idle States - control/limit\_cstate.sh}]{listings/limit_cstate.sh}
+
+
+
+
+%\lstinputlisting[language=sh, label=lst:ht_setstate, caption={Control Script to Disable Hyper-threading - diana:/usr/bin/ht\_setstate.sh}]{listings/ht_setstate.sh}
+
+
+
+%\lstinputlisting[language=sh, label=lst:cpu_setspeed, caption={Control Script to Disable other CPU cores - diana:/usr/bin/cpu\_setspeed.sh}]{listings/cpu_setspeed.sh}
+
+
+\lstinputlisting[language=sh, label=lst:envars, caption={Environment Variable Definition - control/envvars.sh}]{listings/envars.sh}
+
+\lstinputlisting[language=C, label=lst:trigger, caption={C-state Trigger Program - control/triggeridlestates.c}]{listings/triggeridlestates.c}

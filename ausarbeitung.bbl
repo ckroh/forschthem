@@ -1,0 +1,148 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{MAD{\etalchar{+}}05}
+
+\bibitem[AAB{\etalchar{+}}14]{Agelastos2014}
+\textsc{Agelastos}, Anthony ; \textsc{Allan}, Benjamin ; \textsc{Brandt}, Jim ;
+  \textsc{Cassella}, Paul ; \textsc{Enos}, Jeremy ; \textsc{Fullop}, Joshi ;
+  \textsc{Gentile}, Ann ; \textsc{Monk}, Steve ; \textsc{Naksinehaboon},
+  Nichamon ; \textsc{Ogden}, Jeff ; \textsc{Rajan}, Mahesh ;
+  \textsc{Showerman}, Michael ; \textsc{Stevenson}, Joel ; \textsc{Taerat},
+  Narate  ; \textsc{Tucker}, Tom:
+\newblock {The Lightweight Distributed Metric Service: A Scalable
+  Infrastructure for Continuous Monitoring of Large Scale Computing Systems and
+  Applications}.
+\newblock {In: }\emph{Int. Conf. High Perform. Comput. Networking, Storage
+  Anal. SC}
+\newblock 2015-Janua (2014), Nr. January, S. 154--165. --
+\newblock ISBN 978--1--4799--5500--8
+
+\bibitem[BKD{\etalchar{+}}10]{Burtscher2010}
+\textsc{Burtscher}, Martin ; \textsc{Kim}, Byoung~D. ; \textsc{Diamond}, Jeff ;
+  \textsc{McCalpin}, John ; \textsc{Koesterke}, Lars  ; \textsc{Browne}, James:
+\newblock {PerfExpert: An easy-to-use performance diagnosis tool for HPC
+  applications}.
+\newblock {In: }\emph{2010 ACM/IEEE Int. Conf. High Perform. Comput.
+  Networking, Storage Anal. SC 2010}
+\newblock  (2010).
+\newblock ISBN 9781424475575
+
+\bibitem[DBL08]{Desai2008}
+\textsc{Desai}, Narayan ; \textsc{Bradshaw}, Rick  ; \textsc{Lusk}, Ewing:
+\newblock {Disparity: Scalable anomaly detection for clusters}.
+\newblock {In: }\emph{Proc. Int. Conf. Parallel Process. Work.}
+\newblock  (2008), S. 116--120. --
+\newblock ISBN 9780769533759
+
+\bibitem[HBMK05]{Hoffman2005}
+\textsc{Hoffman}, John~J. ; \textsc{Byrd}, Andrew ; \textsc{Mohror}, Kathryn~M.
+   ; \textsc{Karavanic}, Karen~L.:
+\newblock {PPerfGrid: A grid services-based tool for the exchange of
+  heterogeneous parallel performance data}.
+\newblock {In: }\emph{Proc. - 19th IEEE Int. Parallel Distrib. Process. Symp.
+  IPDPS 2005}
+\newblock 2005 (2005).
+\newblock ISBN 0769523129
+
+\bibitem[HM05]{Huck2005}
+\textsc{Huck}, K.a. ; \textsc{a.D. Malony}:
+\newblock {PerfExplorer: A Performance Data Mining Framework For Large-Scale
+  Parallel Computing}.
+\newblock {In: }\emph{ACM/IEEE SC 2005 Conf.}
+\newblock  (2005).
+\newblock ISBN 1--59593--061--2
+
+\bibitem[KHN12]{Kluge2012}
+\textsc{Kluge}, Michael ; \textsc{Hackenberg}, Daniel  ; \textsc{Nagel},
+  Wolfgang~E.:
+\newblock {Collecting distributed performance data with dataheap: Generating
+  and exploiting a holistic system view}.
+\newblock {In: }\emph{Procedia Comput. Sci.}
+\newblock 9 (2012), S. 1969--1978. --
+\newblock ISSN 18770509
+
+\bibitem[KRH]{Kerbyson}
+\textsc{Kerbyson}, Darren ; \textsc{Rajamony}, Ram  ; \textsc{Hensbergen},
+  Eric~V.:
+\newblock {Performance Health Monitoring for Large-Scale Systems}.
+\newblock
+
+\bibitem[Kuf05]{Kufrin2005}
+\textsc{Kufrin}, Rick:
+\newblock {Perfsuite: An accessible, open source performance analysis
+  environment for linux}.
+\newblock {In: }\emph{Dans Present. 6th Int. Conf. Linux Clust. HPC Revolut.}
+\newblock 151 (2005), Nr. April, S.~5
+
+\bibitem[LSW99]{Liang1999}
+\textsc{Liang}, Zhengyu Liang~Z. ; \textsc{Sun}, Yundong Sun~Y.  ;
+  \textsc{Wang}, Cho-Li Wang Cho-Li:
+\newblock {ClusterProbe: an open, flexible and scalable cluster
+  monitoring$\backslash$ntool}.
+\newblock {In: }\emph{ICWC 99. IEEE Comput. Soc. Int. Work. Clust. Comput.}
+\newblock  (1999).
+\newblock ISBN 0--7695--0343--8
+
+\bibitem[MAD{\etalchar{+}}05]{Mucci2005}
+\textsc{Mucci}, P~J. ; \textsc{Ahlin}, D ; \textsc{Danielsson}, J ;
+  \textsc{Ekman}, P  ; \textsc{Malinowski}, L:
+\newblock {PerfMiner: Cluster-wide collection, storage and presentation of
+  application level hardware performance data}.
+\newblock {In: }\emph{Euro-Par 2005 Parallel Process. Proc.}
+\newblock 3648 (2005), S. 124--133. --
+\newblock ISBN 0302--9743
+
+\bibitem[MCC04]{Massie2004}
+\textsc{Massie}, Matthew~L. ; \textsc{Chun}, Brent~N.  ; \textsc{Culler},
+  David~E.:
+\newblock {The ganglia distributed monitoring system: Design, implementation,
+  and experience}.
+\newblock {In: }\emph{Parallel Comput.}
+\newblock 30 (2004), Nr. 7, S. 817--840. --
+\newblock ISBN 1510495304
+
+\bibitem[MSSN04]{Mooney2004}
+\textsc{Mooney}, Ryan ; \textsc{Schmidt}, Kenneth~P. ; \textsc{Studham}, R.~S.
+  ; \textsc{Nieplocha}, Jarek:
+\newblock {NWPerf: A system wide performance monitoring tool for large Linux
+  clusters}.
+\newblock {In: }\emph{Proc. - IEEE Int. Conf. Clust. Comput. ICCC}
+\newblock  (2004), S. 379--389. --
+\newblock ISBN 0780386949
+
+\bibitem[PF02]{Prodan2002}
+\textsc{Prodan}, R. ; \textsc{Fahringer}, T.:
+\newblock {ZENTURIO: An experiment management system for cluster and Grid
+  computing}.
+\newblock {In: }\emph{Proc. - IEEE Int. Conf. Clust. Comput. ICCC}
+\newblock 2002-Janua (2002), S. 9--18. --
+\newblock ISBN 0769517455
+
+\bibitem[Qui14]{Quintero2014}
+\textsc{Quintero}, Dino:
+\newblock {IBM High Performance Computing Cluster Health Check}.
+\newblock
+\newblock  (2014), S. 124
+
+\bibitem[SG10]{Schroeder2010}
+\textsc{Schroeder}, Bianca ; \textsc{Gibson}, Garth~a.:
+\newblock {A Large-Scale Study of Failures in High-Performance Computing
+  Systems}.
+\newblock {In: }\emph{IEEE Trans. Dependable Secur. Comput.}
+\newblock 7 (2010), Nr. 4, S. 337--350. --
+\newblock ISBN 1545--5971 VO -- 7
+
+\bibitem[SM02]{Sottile2002}
+\textsc{Sottile}, M.~J. ; \textsc{Minnich}, R.~G.:
+\newblock {Supermon: A high-speed cluster monitoring system}.
+\newblock {In: }\emph{Proc. - IEEE Int. Conf. Clust. Comput. ICCC} Bd.
+  2002-Janua, 2002. --
+\newblock ISBN 0769517455, S. 39--46
+
+\bibitem[Wor05]{Worringen2005}
+\textsc{Worringen}, Joachim:
+\newblock {Experiment management and analysis with perfbase}.
+\newblock {In: }\emph{Proc. - IEEE Int. Conf. Clust. Comput. ICCC}
+\newblock  (2005), S. 1--18. --
+\newblock ISBN 0780394852
+
+\end{thebibliography}

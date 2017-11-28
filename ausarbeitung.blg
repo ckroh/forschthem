@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ausarbeitung.aux
+The style file: alphadin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: literatur.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--Es gibt einen Jahrgang, aber kein Jahr in Kerbyson
+You've used 17 entries,
+            3183 wiz_defined-function locations,
+            770 strings with 8181 characters,
+and the built_in function-call counts, 14207 in all, are:
+= -- 1565
+> -- 447
+< -- 512
++ -- 582
+- -- 177
+* -- 1130
+:= -- 2485
+add.period$ -- 21
+call.type$ -- 17
+change.case$ -- 111
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 310
+empty$ -- 729
+format.name$ -- 237
+if$ -- 2588
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 31
+newline$ -- 118
+num.names$ -- 51
+pop$ -- 98
+preamble$ -- 1
+purify$ -- 145
+quote$ -- 0
+skip$ -- 666
+stack$ -- 0
+substring$ -- 1390
+swap$ -- 116
+text.length$ -- 90
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 136
+warning$ -- 1
+while$ -- 144
+width$ -- 20
+write$ -- 250
+(There was 1 warning)

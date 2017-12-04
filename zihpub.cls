@@ -696,7 +696,7 @@ Wissenschaftlichen Hochleistungsrechnen''}
   \fi
 \else
   \if@german
-    \bibliographystyle{alphadin}
+%    \bibliographystyle{alphadin}
   \else
     \bibliographystyle{alpha}
   \fi
